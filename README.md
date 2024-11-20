@@ -1,6 +1,7 @@
 # Covid-Simulation-Pred-w-GameTheory
 
 This repository contains a Jupyter Notebook implementing a deep learning workflow for analyzing and modeling data with a focus on small population datasets.
+Here we analyse the spread of a disease in France to compare different strategies and scenarios against it. We run a multiagent simulation to create a dataset on a subpopulation, and create a deep learning surrogate model from that data to predict it on a higher scale. We assess the best course of action through the number of contamination and deaths predicted. Our results show that focusing the vaccine on people that are contaminated can be more efficient than focusing on fragile or elderly people to mitigate the number of deaths. It also shows that lockdowns are efficient in diminishing the spread of a disease, and that the degree of compliance of the  population affects its efficiency
 
 ## Project Structure
 
@@ -26,22 +27,6 @@ You can install these dependencies via pip:
 pip install numpy pandas tensorflow matplotlib
 ```
 
-## Usage
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/Final_AI_Project.git
-   cd Final_AI_Project
-   ```
-
-2. Open the Jupyter Notebook:
-
-   ```bash
-   jupyter notebook Final_AI_Project.ipynb
-   ```
-
-3. Follow the steps in the notebook to execute the code and review the results.
 
 ## Features
 
